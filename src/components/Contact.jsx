@@ -11,7 +11,7 @@ export default function Contact() {
 
 
     return (
-        <section id='contact' className='px-40 py-14 w-3/4 mx-auto max-sm:px-5'>
+        <section id='contact' className='px-40 py-14 w-3/4 mx-auto max-sm:px-5 w-full'>
             <h1 className='text-3xl text-white'>Get in Touch</h1>
             <div className='flex flex-col'>
                 <input onChange={(e)=>setName(e.target.value)} type='text' value={name} placeholder='Enter name' name='name' className='p-3 rounded-lg my-2'></input>
